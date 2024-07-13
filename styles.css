@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-link {
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px ;
+    padding-top: 10px;
+}
+
+.navbar {
+    list-style-type: none;
+    justify-content: right;
+    background-color: #fff !important;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+#container-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 0 20px; 
+    z-index: 1000;
+    position: fixed;
+    background-color: #fff !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.title {
+    margin-top: 100px;
+    text-align: center;
+    padding: 0 20px; 
+}
+
+
+#about {
+   columns: 2;
+    text-align: center;
+    padding-top: 50px;
+    height: auto;
+    padding-bottom: 40px;
+
+}
+
+.skills{
+    list-style-type: none;
+}
+
+.skills-header {
+    position: relative; 
+    padding-left: 20px; 
+}
+
+.proj-img1 {
+    width: 50%;
+    height: auto;
+}
+
+.project1 {
+    columns: 2;
+    text-align: center;
+}
+
+#portfolio {
+    display: flexbox;
+}
+
+#contact {
+    text-align: center;
+    
+
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    padding-top: 10px;
+}
+
+button {
+    background-color: gray;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    width: 25%;
+    margin: 0 auto;
+}
+
+input[type=text], input[type=email], textarea {
+    width: 35%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+hr {
+    border: none; /* hr left in html */
+}
+
+.navbar-toggler {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.navbar-toggler-icon {
+    background-color: #fff; /* Example background color */
+    border-radius: 3px;
+    border: none;
+}
+
+/* Add these styles to your existing styles.css or a new file */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.header {
+    background-color: #fff; /* White background for header */
+}
+
+.title {
+    background-color: #e9ecef; /* Light gray background for title section */
+    padding: 80px 0;
+}
+
+.title-h1 {
+    font-size: 3rem;
+    color: #333;
+}
+
+.title p {
+    font-size: 1.2rem;
+    color: #555;
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+.cta {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.cta:hover {
+    background-color: #0056b3;
+}
+
+.container-fluid {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+}
+
+.about, .portfolio, .contact {
+    background-color: #fff;
+    padding: 60px 0;
+    margin: 40px 0;
+}
+
+.skills {
+    justify-content: center;
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.skills li {
+    margin: 0 10px;
+    padding: 8px 16px;
+    color: #000;
+    border-radius: 4px;
+}
+
+.skills-header {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+}
+
+.project {
+    columns: 2;
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.project h3 {
+    font-size: 1.8rem;
+    margin-top: 20px;
+    color: #333;
+}
+
+.project p {
+    color: #555;
+    line-height: 1.8;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: transparent;
+    color: inherit;
+    padding: 10px;
+    font-size: inherit;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top: 20px;
+    left: 40%;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    /* Adjust top and left/right properties as needed */
+    top: 100%; /* Position dropdown below the .dropdown */
+    left: 50%; /* Adjust left position relative to .dropdown */
+}
+
+.dropdown-content a {
+    color: #333;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s ease;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.social a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.social a:hover {
+    text-decoration: underline;
+}
+
+

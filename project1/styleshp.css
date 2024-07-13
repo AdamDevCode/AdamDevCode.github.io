@@ -1,0 +1,164 @@
+/* Global reset and basic styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: montserrat, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  color: green;
+}
+
+#healthy {
+  text-align: center;
+}
+
+/* Header styles */
+#header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff; /* Optional: Add a background color */
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Optional: Add a shadow for a visual lift */
+  z-index: 1000; /* Ensure header stays on top of other content */
+}
+
+#header-img {
+  width: 50px;
+  height: auto;
+}
+
+#nav-bar {
+  display: flex;
+}
+
+.nav-link {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #333;
+}
+
+.nav-link:hover {
+  color: #555;
+}
+
+
+main {
+  padding-top: 80px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+#content {
+  padding: 20px;
+}
+
+#form_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  padding-left: 180px;
+  color: green;
+}
+
+#submit {
+  background-color: green;
+  color: white;
+  width: 100px;
+  font-size: 16px;
+}
+
+#email {
+  font-size:16px;
+}
+
+#products {
+   display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 100px;
+  justify-content: center;  
+  padding: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+#products, p{
+  padding-bottom: 15px;
+}
+
+#health_box, #pam_box, #play_box {
+  border: 2px solid green;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 200
+}
+
+#pricing {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 300px;
+  justify-content: center;  
+  padding: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin: 0 auto;
+  max-width: 1200px;
+  text-align: center;
+}
+
+h6 {
+  color: green;
+  padding: 5px;
+  font-size: 20px;
+}
+
+h4 {
+  color: green;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.price_p {
+  padding: 5px;
+}
+
+.product_p {
+  text-align: center;
+}
+
+#about_us {
+  margin-left: 200px;
+  margin-right: 200px;
+  padding-bottom: 50px;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#video {
+  max-width: 100%;
+  max-height: 100%;
+}
+@media only screen and (max-width: 720px) {
+  .image-wrapper {
+    grid-template-columns: 1fr;
+  }
+}
