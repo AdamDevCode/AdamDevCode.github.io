@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+h1, h2 {
+    color: #4CAF50;
+}
+
+#ingredients-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; /* Adjust spacing between items */
+}
+
+.ingredient {
+    flex: 1 1 calc(33.333% - 15px); /* Adjust width to fit three items per row, considering gap */
+    box-sizing: border-box;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 14px; /* Adjust font size for better readability */
+}
+
+.ingredient label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5px;
+}
+
+.ingredient input {
+    width: auto; /* Allow input to fit the container */
+}
+
+.update-section {
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="number"], select, button {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
